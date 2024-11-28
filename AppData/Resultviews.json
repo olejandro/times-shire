@@ -1,0 +1,135 @@
+[
+    {
+        "Name": "_Dummy Imports",
+        "Description": "Check dummy imports",
+        "Units": "",
+        "EditedOn": "2017-01-06",
+        "Filter": "{\"attribute\": [\"VAR_FOut\"],\"processset\": [\"DUMIMP\"]}"
+    },
+    {
+        "Name": "_SysCost",
+        "Description": "Total discounted system cost by region",
+        "Units": "MEUR2012",
+        "EditedOn": "2017-01-08",
+        "Filter": "{\"attribute\": [\"Reg_obj\"]}"
+    },
+    {
+        "Name": "All Costs",
+        "Description": "Costs by type",
+        "Units": "MEUR2012",
+        "EditedOn": "2017-01-08",
+        "Filter": "{\"attribute\": [\"Cost_Act\",\"Cost_Flo\",\"Cost_Fom\",\"Cost_Inv\",\"Cost_Salv\"]}"
+    },
+    {
+        "Name": "ELC_Electricity_Generation",
+        "Description": "Electrcity Generation by plants (ELE, CHP) and output of import (IRE) processes",
+        "Units": "PJ",
+        "EditedOn": "2017-01-08",
+        "Filter": "{\"attribute\": [\"VAR_FOut\"],\"commodity\": [\"ELCC\"],\"processset\": [\"CHP\",\"ELE\",\"IRE\"]}"
+    },
+    {
+        "Name": "ELC_Fuel_Consumpton",
+        "Description": "Fuel consumption by power plants (ELE, CHP and HPL)",
+        "Units": "PJ",
+        "EditedOn": "2017-01-08",
+        "Filter": "{\"attribute\": [\"VAR_FIn\"],\"processset\": [\"CHP\",\"ELE\",\"HPL\"]}"
+    },
+    {
+        "Name": "ELC_Heat_Generation",
+        "Description": "Heat generation - all sources",
+        "Units": "PJ",
+        "EditedOn": "2017-01-08",
+        "Filter": "{\"attribute\": [\"VAR_FOut\"],\"commodity\": [\"HET\"]}"
+    },
+    {
+        "Name": "RCI_ConsForHeatingAndCoolingInRESandCOM",
+        "Description": "Energy consumption for heating and cooling in residential and commercial sectors",
+        "Units": "PJ",
+        "EditedOn": "2017-01-08",
+        "Filter": "{\"attribute\": [\"VAR_FIn\"],\"processset\": [\"RCI-COM_HC\",\"RCI-RES_HC\"]}"
+    },
+    {
+        "Name": "RCI_ConsumptionIndustryGlassAndPP",
+        "Description": "Consumption in Glass, as well as Pulp and Paper Industries",
+        "Units": "PJ",
+        "EditedOn": "2017-01-08",
+        "Filter": "{\"attribute\": [\"VAR_FIn\"],\"commodityset\": [\"NRG\"],\"process\": [\"IGLT\",\"IPPT\"]}"
+    },
+    {
+        "Name": "RCI_ConsumptionIndustryOther",
+        "Description": "Consumption in other industries",
+        "Units": "PJ",
+        "EditedOn": "2017-01-08",
+        "Filter": "{\"attribute\": [\"VAR_FIn\"],\"commodityset\": [\"NRG\"],\"processset\": [\"DMD-RCI_IND-OTH\"]}"
+    },
+    {
+        "Name": "RCI_ConsumptionOtherSectors",
+        "Description": "Consumption in other sectors",
+        "Units": "PJ",
+        "EditedOn": "2017-01-08",
+        "Filter": "{\"attribute\": [\"VAR_FIn\"],\"commodityset\": [\"NRG\"],\"processset\": [\"DMD-RCI_OTH\"]}"
+    },
+    {
+        "Name": "RCI_PowerConsByApplInRESandCOM",
+        "Description": "Electricity consumption by appliances in residential and commercial sectors",
+        "Units": "PJ",
+        "EditedOn": "2017-01-08",
+        "Filter": "{\"attribute\": [\"VAR_FIn\"],\"commodity\": [\"COMELCA\",\"RESELCA\"]}"
+    },
+    {
+        "Name": "TRA_Consumption_DomesticAviation",
+        "Description": "TRA_Consumption_DomesticAviation",
+        "Units": "PJ",
+        "EditedOn": "2017-01-08",
+        "Filter": "{\"attribute\": [\"VAR_FIn\"],\"processset\": [\"TRA_MTPAN\"]}"
+    },
+    {
+        "Name": "TRA_Consumption_DomesticNavigation",
+        "Description": "TRA_Consumption_DomesticNavigation",
+        "Units": "PJ",
+        "EditedOn": "2017-01-08",
+        "Filter": "{\"attribute\": [\"VAR_FIn\"],\"processset\": [\"TRA_MTFSN\",\"TRA_MTPSN\"]}"
+    },
+    {
+        "Name": "TRA_Consumption_InternationalAviation",
+        "Description": "TRA_Consumption_InternationalAviation",
+        "Units": "PJ",
+        "EditedOn": "2017-01-08",
+        "Filter": "{\"attribute\": [\"VAR_FIn\"],\"processset\": [\"TRA_MTFAI\",\"TRA_MTPAI\"]}"
+    },
+    {
+        "Name": "TRA_Consumption_MaritimeBunker",
+        "Description": "TRA_Consumption_MaritimeBunker",
+        "Units": "PJ",
+        "EditedOn": "2017-01-08",
+        "Filter": "{\"attribute\": [\"VAR_FIn\"],\"processset\": [\"TRA_MTFSI\",\"TRA_MTPSI\"]}"
+    },
+    {
+        "Name": "TRA_Consumption_Rail",
+        "Description": "TRA_Consumption_Rail",
+        "Units": "PJ",
+        "EditedOn": "2017-01-08",
+        "Filter": "{\"attribute\": [\"VAR_FIn\"],\"processset\": [\"TRA_MTFR\",\"TRA_MTPR\"]}"
+    },
+    {
+        "Name": "TRA_Consumption_Road",
+        "Description": "TRA_Consumption_Road",
+        "Units": "PJ",
+        "EditedOn": "2017-01-08",
+        "Filter": "{\"attribute\": [\"VAR_FIn\"],\"processset\": [\"TRA_MTFT\",\"TRA_MTFV\",\"TRA_MTPB\",\"TRA_MTPC\"]}"
+    },
+    {
+        "Name": "TRA_Demand_Freight",
+        "Description": "TRA Demand Freight",
+        "Units": "Mton-km",
+        "EditedOn": "2017-01-08",
+        "Filter": "{\"attribute\": [\"VAR_FOut\"],\"commodity\": [\"TFAI\",\"TFR\",\"TFSI\",\"TFSN\",\"TFT\",\"TFV\"],\"processset\": [\"TRA_MTFAI\",\"TRA_MTFR\",\"TRA_MTFSI\",\"TRA_MTFSN\",\"TRA_MTFT\",\"TRA_MTFV\"]}"
+    },
+    {
+        "Name": "TRA_Demand_Pass",
+        "Description": "TRA Demand Passengers",
+        "Units": "Mpass-km",
+        "EditedOn": "2017-01-08",
+        "Filter": "{\"attribute\": [\"VAR_FOut\"],\"commodity\": [\"TPAI\",\"TPAN\",\"TPB\",\"TPC\",\"TPR\",\"TPSI\",\"TPSN\"],\"processset\": [\"TRA_MTPAI\",\"TRA_MTPAN\",\"TRA_MTPB\",\"TRA_MTPC\",\"TRA_MTPR\",\"TRA_MTPSI\",\"TRA_MTPSN\"]}"
+    }
+]

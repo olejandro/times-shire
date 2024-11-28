@@ -1,0 +1,55 @@
+[
+    {
+        "CaseId": 38,
+        "CreatedOn": "2024-11-28 04:37",
+        "Description": "",
+        "EditedOn": "2024-11-28 04:37",
+        "EndingYear": "2050",
+        "FixResultFileName": "False",
+        "FixResultInfo": {
+            "WorkTimesFolderPath": null,
+            "GdxElasticDermands": {
+                "GdxSelectedFile": {
+                    "FileName": "",
+                    "FilePath": "",
+                    "IsSelected": false
+                },
+                "IsApplied": false
+            },
+            "GdxIre": {
+                "GdxSelectedFile": {
+                    "FileName": "",
+                    "FilePath": "",
+                    "IsSelected": false
+                },
+                "IsApplied": false,
+                "RadioSelection": 1
+            },
+            "GdxUseSolution": {
+                "FixYearsUpto": "",
+                "GdxSelectedFile": {
+                    "FileName": "",
+                    "FilePath": "",
+                    "IsSelected": false
+                },
+                "IsApplied": false,
+                "RadioSelection": 1
+            },
+            "IsApplyFixResult": false
+        },
+        "GAMSSourceFolder": "GAMS_SrcTIMES",
+        "Name": "Base",
+        "ParametricGroup": null,
+        "ParametricGroupId": null,
+        "PeriodsDefinition": "pdef-1",
+        "PropertiesGroup": "DefaultProperties",
+        "PropertiesGroupId": 52,
+        "RegionGroup": "AllRegion",
+        "RegionGroupId": 51,
+        "ScenarioGroup": "Base",
+        "ScenarioGroupId": 53,
+        "Solver": "cplex",
+        "SolverOptionFile": "BA121-7",
+        "UserName": "user"
+    }
+]
